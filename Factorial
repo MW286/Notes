@@ -1,0 +1,27 @@
+/**
+ * Will factor numbers
+ * 
+ * Matthew Moore
+ */
+
+class factorial{        //There is no public in front because it will oonly execute the second block of code.
+    
+      int f(int n){
+      int result;
+     
+     if (n==1){
+         return 1;
+        }else{
+        result = f(n-1) * n;
+        return result;
+        }
+     }
+     }
+public class Factorial{
+     public static void main(String[] args){
+         factorial A = new factorial();
+         
+         System.out.println("factorial of 3 is " + A.f(3));
+         
+     }
+}
